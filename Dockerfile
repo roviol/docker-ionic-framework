@@ -60,5 +60,5 @@ ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${ANDROID_
 
 
 WORKDIR myApp
-#EXPOSE 8100 35729
+EXPOSE 8100 35729
 #CMD ["ionic", "serve"]
